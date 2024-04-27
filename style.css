@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;  
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.top {
+  background: #ffffff;
+
+}
+
+.header {
+  padding-top: 11px;
+  padding-bottom: 12px;
+  margin-top: 40px;
+  margin-bottom: 84px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.logo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.menu a{
+  margin: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.header__link {  
+  color: #000000;
+}
+
+.header__link__home {
+  color: #F25822;
+}
+
+.top__content {
+  margin-top: 84px;
+  margin-bottom: 162px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+}
+
+.top__info {
+  width: 522px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+
+}
+
+.main__text {
+  width: 466px;
+  color: rgb(136, 136, 136);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.top__buttons {
+  margin-top: 37px;
+  display: flex;
+  gap: 72px;
+}
+
+.start {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 15px 35px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 89, 34, 0.212);
+  background: rgb(242, 88, 34);
+  outline: none;
+  border: none;
+}
+
+.video {
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  background: transparent;
+  border: none !important;
+}
+
+.top__logos {
+  padding-top: 97px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.features {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.features__heading {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding-top: 25px;
+  padding-bottom: 18px;
+}
+
+.features__text {  
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+  width: 310px;
+  padding-bottom: 25px;
+}
+
+.futures__link {
+  font-size: 11px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.grow_busines {
+  padding: 0;
+}
+
+.quality_leads{
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 40px 30px 26px 30px;
+}
+
+.more_sales {
+  padding: 0;
+}
+
+.services {
+  background-color: #FAFAFA;
+}
+
+.services__text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__title {
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+  text-align: center;
+  padding-top: 92px;
+  padding-bottom: 20px;
+}
+
+.services__main_text {
+  font-size: 16px;
+  font-weight: 400;  
+  color: #666666;
+  max-width: 682px;
+  text-align: center;
+  padding-bottom: 54px;
+}
+
+.services__columns {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 370px);
+  justify-content: center;
+  padding-bottom: 100px;
+  align-items: center;
+  
+}
+
+.services__column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.services__column_center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+}
+
+.services__heading {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+  padding-top: 25px;  
+}
+
+.services__info {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(170, 170, 170);
+  width: 310px;
+  padding-top: 23px;
+  padding-bottom: 39px;
+}
+
+.button__services {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 15px 36px 15px 46px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 89, 34, 0.212);
+  background: rgb(242, 88, 34);
+  outline: none;
+  border: none;
+  margin-bottom: 50px;
+}
+
+
